@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Auto-hiding fixed navbar for Bootstrap</title>
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .demo-long {
+        margin-top: 100px;
+        margin-bottom: 200px;
+      }
+    </style>
+  </head>
+
+<body>
+  <div class="container w-container">
+    <h1 class="logo">MAGNETIC</h1>
+    <p class="subtitle">Ads that work.</p>
+    <div class="join-wrapper w-clearfix">
+      <div class="beta-line"></div>
+      <p class="join">Join Our Beta List</p>
+      <div class="beta-line"></div>
+    </div>
+    <div class="sign-up-form w-form">
+      <form class="form w-clearfix" data-name="Signup Form" name="wf-form-signup-form">
+        <input class="field w-input" data-name="Email" maxlength="256" name="email" placeholder="Your email address" required="required" type="email">
+        <input class="button w-button" data-wait="Please wait..." type="submit" value="Submit">
+      </form>
+      <div class="success-message w-form-done">
+        <p>Thanks! You have been added to our beta list.&nbsp;</p>
+        <p class="spread-word">Help spread the word!</p>
+        <div class="social-widget-wrapper w-clearfix">
+          <div class="social-widget w-widget w-widget-twitter">
+            <iframe src="https://platform.twitter.com/widgets/tweet_button.html#url=http%3A%2F%2Fwebflow.com&amp;counturl=webflow.com&amp;text=Check%20out%20this%20site&amp;count=horizontal&amp;size=m&amp;dnt=true" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 62px; height: 21px;"></iframe>
+            <div class="w-widget-twitter-count-shim">
+              <div class="w-widget-twitter-count-inner">...</div>
+            </div>
+          </div>
+          <div class="social-widget w-widget w-widget-facebook">
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Ffacebook.com%2Fwebflow&amp;layout=button_count&amp;locale=en_US&amp;action=like&amp;show_faces=false&amp;share=false" scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width: 90px; height: 20px;"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="error-message w-form-fail">
+        <p>Oops! Something went wrong while submitting the form. :(</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-section">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-6 w-col-small-6">
+          <div class="copyright">© 2014 Magnetic Inc. All right reserved.&nbsp;</div>
+        </div>
+        <div class="align-right w-col w-col-6 w-col-small-6">
+          <a class="social-btn w-inline-block" href="http://facebook.com/webflowapp"><img src="images/facebook-icon.svg">
+          </a>
+          <a class="social-btn w-inline-block" href="http://twitter.com/webflowapp"><img src="images/twitter-icon.svg">
+          </a>
+          <a class="social-btn w-inline-block" href="mailto:support@webflow.com"><img src="images/email-icon.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

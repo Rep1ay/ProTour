@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ProTour</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+	<link rel="stylesheet" type="text/css" href="fotorama/fotorama.css"/>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flipping_text.js"></script>
+	<script type="text/javascript" src="fotorama/fotorama.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/dynamics.min.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	
+
+
+</head>
+<body>
+	<section id="header">
+		<div class="content_wrap">
+			<header>
+					<nav class="navbar navbar-default" role="navigation">
+							<div class="container-fluid">
+						   
+						   <div class="navbar-header">
+						   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						   <span class="sr-only">Toggle navigation</span>
+						   <span class="icon-bar"></span>
+						   <span class="icon-bar"></span>
+						   <span class="icon-bar"></span>
+						   </button>
+						  <!--  <a class="navbar-brand" href="#"></a> -->
+						   </div>
+						  
+						  
+						   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						   <ul class="nav navbar-nav">
+						   <li class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><a href="#">Home</a></li>
+						   <li class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><a href="#">Popularne</a></li>
+						   <li class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><a href="#">Oferty</a></li>
+						   <li class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><a href="#">Kalendarz</a></li>
+						   <li class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><a href="#">Kontakt</a></li> 
+						   </ul> 
+						   </div>
+							</div>
+						  </nav>
+				<div class="container">
+				    <div class="row">
+				        <div class='col-md-5 col-sm-6'>
+				            <div class="form-group">
+				                <div class='input-group date' id='datetimepicker1'>
+				                    <input type='text' class="form-control" /><span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+						         </div>
+						    </div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-md-push-9" id="logo">
+					<a href=#><img src="img/logo2.png"></a>
+				</div>
+			</header>
+<!-- 
+			<div class="container">
+				<div class="row col-md-12">
+					<div class="col-md-2">
+						<a href="#"><button class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><span>Home</span></button></a>
+						</div>
+						<div class="col-md-2">
+							<a href=#popular><button class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><span>Popularne</span></button></a>
+						</div>
+						<div class="col-md-2">
+							<a href=#horwacia><button class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><span>Oferty</span></button></a>
+						</div>
+						<div class="col-md-2">
+							<a href="#"><button class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin button--border-thin"><span>Kalendarz</span></button></a>
+						</div>
+						<div class="col-md-2">
+							<a href="#footer"><button class="button button--antiman button--border-thin button--round-s button--size-l button--text-thin"><span>Kontakty</span></button></a>
+					</div>
+				</div>
+			</div> -->
+
+
+
+			
+
+		
+			<div id="down"></div>
+			</div>
+
+
+	</section>
+		
+	
+	<section id="popular" class="col-md-9" class="text-center"></div>
+	
+		<div class="row" >
+			<div class="col-md-3" >
+				<a id="sea" href="#">Morze</a>
+			</div>
+			<div  class="col-md-3">
+				<a id="mount" href="#">Gory</a>
+			</div>
+			<div class="col-md-3">
+				<a  id="wood" href="#">Lasy</a>
+			</div>
+			<div class="col-md-3">
+				<a id="city"  href="#">Miasta</a>
+			</div>
+		
+		</div>
+	</section>
+	
+			<section id="country">
+				<div class="container">
+					<div class="row">
+					<div class="col-md-6  col-xs-12 offer">
+						<div id="horwacia">
+							<h2 class="text-center"><img src="img/place.png">Horwacia</h2>
+							<div class="fotorama">
+								 <img src="img/horwacia/horwacia1.png">
+								 <img src="img/horwacia/horwacia2.png">
+								 <img src="img/horwacia/horwacia3.png">
+								 <img src="img/horwacia/horwacia4.png">
+								 <img src="img/horwacia/horwacia5.png">
+							</div>
+							<div class="oferta_informacja">
+								<div class="oferta-opcje">
+							        <span class="termin_wyjazdu"><i class="fa fa-calendar" aria-hidden="true"></i>  12.05.2017</span><br/>
+							       	<span class="wylot"><i class="fa fa-plane" aria-hidden="true"></i> Wylot z Katowice</span><br/>
+							       	<span class="typwycieczki"><i class="fa fa-sun-o" aria-hidden="true"></i> wypoczynek</span><br/>
+							       	<span class="obiad"><i class="fa fa-cutlery" aria-hidden="true"></i> All inclusive</span><br/>
+								</div>
+								<div class="oferta_cena">
+									<span class="cena">1500&nbsp;zł</span>
+								</div>
+								<a href="#" class="btn">Jade!</a>
+							</div>
+						</div>
+					</div>	
+						
+					<div class="col-md-6  col-xs-12  offer">
+						<div id="Grecja">
+							<h2 class="text-center"><img src="img/place.png">Grecja</h2>
+							<div class="fotorama">
+								  <img src="img/grecja/grecja4.png">
+								  <img src="img/grecja/grecja2.png">
+								  <img src="img/grecja/grecja3.png">
+								  <img src="img/grecja/grecja1.png">
+								  
+							</div>
+							<div class="oferta_informacja">
+								<div class="oferta-opcje">
+							        <span class="termin_wyjazdu"><i class="fa fa-calendar" aria-hidden="true"></i>  09.07.2017</span><br/>
+							       	<span class="wylot"><i class="fa fa-plane" aria-hidden="true"></i> Wylot z Katowice</span><br/>
+							       	<span class="typwycieczki"><i class="fa fa-sun-o" aria-hidden="true"></i> wypoczynek</span><br/>
+							       	<span class="obiad"><i class="fa fa-cutlery" aria-hidden="true"></i> All inclusive(soft)</span><br/>
+								</div>
+					       		<div class="oferta_cena">
+									<span class="cena">1439&nbsp;zł</span>
+								</div>
+							</div>
+							<a href="#" class="btn">Jade!</a>
+						</div>
+					</div>			
+				
+					<div class="col-md-6 col-xs-12  offer">
+						<div id="Włochy">
+							<h2 class="text-center"><img src="img/place.png">Włochy</h2>
+							<div class="fotorama">
+								  <img src="img/włochy/włochy1.png">
+								  <img src="img/włochy/włochy2.png">
+								  <img src="img/włochy/włochy3.png">
+								  <img src="img/włochy/hwłochy4.png">
+							</div>
+							<div class="oferta_informacja">
+								<div class="oferta-opcje">
+							        <span class="termin_wyjazdu"><i class="fa fa-calendar" aria-hidden="true"></i>  12.07.2017</span><br/>
+							       	<span class="wylot"><i class="fa fa-plane" aria-hidden="true"></i> Wylot z Katowice</span><br/>
+							       	<span class="typwycieczki"><i class="fa fa-sun-o" aria-hidden="true"></i> wypoczynek</span><br/>
+							       	<span class="obiad"><i class="fa fa-cutlery" aria-hidden="true"></i> All inclusive</span><br/>
+								</div>
+								<div class="oferta_cena">
+									<span class="cena">899&nbsp;zł</span>
+								</div>
+							</div>
+							<a href="#" class="btn">Jade!</a>	
+						</div>
+					</div>	
+
+
+					<div class="col-md-6 col-xs-12  offer">
+						<div id="Austria">
+							<h2 class="text-center"><img src="img/place.png">Austria</h2>
+							<div class="fotorama">
+								  <img src="img/austria/austria1.png">
+								  <img src="img/austria/austria2.png">
+								  <img src="img/austria/austria3.png">
+								  <img src="img/austria/austria4.png">
+							</div>
+							<div class="oferta_informacja">
+								<div class="oferta-opcje">
+							        <span class="termin_wyjazdu"><i class="fa fa-calendar" aria-hidden="true"></i>  29.07.2017</span><br/>
+							       	<span class="wylot"><i class="fa fa-plane" aria-hidden="true"></i> Wylot z Katowice</span><br/>
+							       	<span class="typwycieczki"><i class="fa fa-sun-o" aria-hidden="true"></i> wypoczynek</span><br/>
+							       	<span class="obiad"><i class="fa fa-cutlery" aria-hidden="true"></i> All inclusive</span><br/>
+								</div>
+								<div class="oferta_cena">
+									<span class="cena">1299&nbsp;zł</span>
+								</div>
+							</div>
+							<a href="#" class="btn">Jade!</a>
+						</div>
+					</div>
+
+
+					<div class="col-md-6 col-xs-12  offer">
+						<div id="Meksyk">
+							<h2 class="text-center"><img src="img/place.png">Meksyk</h2>
+							<div class="fotorama">
+								  <img src="img/meksyk/meksyk1.png">
+								  <img src="img/meksyk/meksyk2.png">
+								  <img src="img/meksyk/meksyk3.png">
+								  <img src="img/meksyk/meksyk4.png">
+						  	</div>
+							<div class="oferta_informacja">
+								<div class="oferta-opcje">
+							        <span class="termin_wyjazdu"><i class="fa fa-calendar" aria-hidden="true"></i>   09.06.2017</span><br/>
+							       	<span class="wylot"><i class="fa fa-plane" aria-hidden="true"></i> Wylot z Katowice</span><br/>
+							       	<span class="typwycieczki"><i class="fa fa-sun-o" aria-hidden="true"></i> wypoczynek</span><br/>
+							   		<span class="obiad"><i class="fa fa-cutlery" aria-hidden="true"></i> All inclusive</span><br/>
+								</div>
+								<div class="oferta_cena">
+									<span class="cena">799&nbsp;zł</span>
+								</div>
+							</div>		
+							<a href="#" class="btn rule">Jade!</a>
+						</div>	
+					</div>
+
+
+					<div class="col-md-6 col-xs-12  offer">
+						<div id="Hiszpania">
+							<h2 class="text-center"><img src="img/place.png">Hiszpania</h2>
+							<div class="fotorama">
+								 <img src="img/hiszpania/hiszpania1.png">
+								 <img src="img/hiszpania/hiszpania2.png">
+								 <img src="img/hiszpania/hiszpania3.png">
+								 <img src="img/hiszpania/hiszpania4.png">
+								 </div>
+							<div class="oferta_informacja">
+								<div class="oferta-opcje">
+							        <span class="termin_wyjazdu"><i class="fa fa-calendar" aria-hidden="true"></i> 09.08.2017</span><br/>
+							       	<span class="wylot"><i class="fa fa-plane" aria-hidden="true"></i> Wylot z Katowice</span><br/>
+							       	<span class="typwycieczki"><i class="fa fa-sun-o" aria-hidden="true"></i> wypoczynek</span><br/>
+							       	<span class="obiad"><i class="fa fa-cutlery" aria-hidden="true"></i> All inclusive</span><br/>
+								</div>
+								<div class="oferta_cena">
+									<span class="cena">1799&nbsp;zł</span>
+								</div>
+
+							</div>
+							<a href="#" class="btn rule">Jade!</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+						
+						
+
+		</section>
+			
+		<section id="footer">
+			<div class="main_footer">
+				<div class="container">
+					<div class="row">
+					<div class="col-md-3 col-sm-6 col-s-3"><div class="footer_column">
+							<img src="img/logo_footer.png" alt="Pro_Tour" class="lofo_footer">
+
+
+						</div>
+						</div>
+						<div class="col-md-3 col-sm-3 col-s-3"><div class="footer_column">
+							<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i>
+
+						</div></div>
+						<div class="col-md-3 col-sm-3 col-s-3"><div class="footer_column">
+							<i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+
+						</div></div>
+						<div class="col-md-3 col-sm-3 col-s-3"><div class="footer_column">
+							<i class="fa fa-phone-square fa-5x" aria-hidden="true"></i>
+
+						</div></div>
+
+			</div>
+		</div>
+	</div>
+
+	<a href="#" class="scrollup">Наверх</a>
+	
+</section>
+
+<a href="#" class="scrollup">Наверх</a>
+
+	<script src="js/script.js"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="content col-md-6">
+			<h1 style="text-align: left;">Wafle wyrób własny</h1>
+			<p style="text-align: left;"><span style="font-size: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam porro maxime repudiandae reprehenderit autem mollitia adipisci assumenda, sapiente similique. Amet quam dicta rerum earum ad. Voluptatibus praesentium voluptas vitae at vel pariatur sequi fugit facere, nesciunt ducimus! Quasi, praesentium, tempore. Reprehenderit iste, sed itaque culpa explicabo nemo </span></p>
+		</div>
+		<img class="wp-image-270 size-full alignright img-responsive" src="http://localhost/talerze/wp-content/uploads/2017/07/wafle.jpg" alt="" width="900" height="596" />
+	</div>
+</div>
