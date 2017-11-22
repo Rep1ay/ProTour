@@ -42,22 +42,25 @@ html, body {
 
 /*-----MAIN SETTINGS----*/
 
-.flex {
+/*.flex {
 	display: flex;
 	flex-wrap: wrap;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
-}
+}*/
 
-.content_wrap {
-	/*display: flex;*/
-	/*position: relative;*/
-	margin: 0 auto;
-
-}
 
 /*-----HEADER SECTION SETTINGS-----*/
+
+.form-group{
+	margin-top: 2%;
+}
+
+
+.nav{
+	margin-top: 5% !important;
+}
 
 
 
