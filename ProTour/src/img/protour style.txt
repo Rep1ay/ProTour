@@ -1,0 +1,182 @@
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&subset=cyrillic,cyrillic-ext';
+
+
+*{
+	font-family: "Roboto";
+}
+* {
+    box-sizing: border-box;
+}
+
+/*html, body {
+	padding: 0;
+	margin: 0;
+	min-height: 100%;
+	height: 100%;
+}
+*/
+/*-----MAIN SETTINGS----*/
+.clear {
+	width:0;
+	height: 0;
+	display: block;
+	position: relative;
+	clear: both;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+}
+
+body{	
+
+}
+/*
+section {
+	position: relative;
+}*/
+
+.content_wrap {
+	
+	position: relative;
+
+	/*margin: 0 auto;*/
+
+}
+
+/*-----HEADER SECTION SETTINGS-----*/
+
+#header_section>.content_wrap{
+	min-height: inherit;
+	box-sizing: border-box;
+}
+
+#header_section {
+	
+	background-image: url(../img/5.png);
+		min-height: 100vh;
+		box-sizing: border-box;
+		width: 100%;
+}
+
+#header_section>.flex {
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+/*--------LOGO--------*/
+
+#header_section header.flex {
+	justify-content: flex-end;
+	padding-top: 350px;
+}
+
+#logo {
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 40px;
+	background: url(../img/Pro-Tour.png) no-repeat center;
+	background-size: contain;
+	text-decoration: none;
+}
+
+
+/*-----------MENU----------*/
+
+#header_section menu.flex {
+justify-content: space-between;    /*<<<<----space-around---*/
+max-width: 900px;
+position: relative;
+left: 80px;
+top: 80px;
+padding: 10px;
+}
+
+#header_section menu a {
+	height: 80px;
+	line-height: 80px;
+	min-width: 80px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #fff;
+	opacity: 0.7;
+	font-size: 30px;
+	transition: all 0.5s ease;
+	position: relative;
+	z-index: 10;	
+
+}
+
+#header_section menu a:hover {
+	color: #333;
+	opacity: 1;
+	line-height: 88px;
+	border:1 solid #fff;
+	border-radius: 8px;
+	transition: all 1s ease;
+	font-size: 32px;
+	text-decoration: none;
+}
+	
+	
+}
+
+#header_section menu a::before{
+	opacity: 0.4;
+	content: " ";
+	position: absolute;
+	left: 0;
+	top:-25px;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 1);
+	z-index: -1;
+	transition: all 2s ease-in-out;
+}
+
+#header_section menu a:hover::before{
+	opacity: 0.5;
+	content: " ";
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	background-color: rgba(255, 255, 255, 1);
+	z-index: -1;
+	transition: all 2s ease;
+	font-weight: 200;
+
+}
+
+menu.flex {
+	margin-left: 100px;
+}
+
+/*------SECTION SCROLL-----*/
+
+#header_section .more {
+	text-align:center;
+
+}
+#header_section .more a{
+	display: inline-block;
+	margin: 10px;
+	opacity: 0.6;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+/*#header_section #down{
+	display: inline-block;
+	width: : 60px;
+	height: 60px;
+	background-image: url(../img/down11.png) ;
+	background-size: contain;
+}*/
