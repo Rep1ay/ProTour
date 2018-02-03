@@ -48,6 +48,8 @@ dynamics.animate(document.getElementById("logo"),  {
   returnsToSelf: true
 });
 
+document.classList.toggle('class');
+
 
 // --------MENU----------
 
